@@ -54,6 +54,9 @@ a {
 .btn-wrapper p {
   margin: 10px 0;
 }
+.btn-short-text {
+  padding-left: 5px;	
+}
 
 .signup {
   background-color: #239b76;
