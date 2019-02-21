@@ -83,7 +83,8 @@ a {
 }
 
 .fa {
-  margin-right: 10px;
+  margin-right: 5px;
+  padding-right: 5px;
 }
 
 header {
