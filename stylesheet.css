@@ -1,4 +1,4 @@
-/* -------------------- CSSは一番下から書き始めてください！ -------------------- */
+
 
 * {
   box-sizing: border-box;
@@ -206,9 +206,15 @@ footer {
   padding-bottom: 20px;
 }
 
-/* -------------------- CSSはここから追加していきましょう！ -------------------- */
 
-
+.menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  /* displayをnoneに指定してください */
+  display: none;
+}
 
 /* float: left; を解除 */
 .clear {
