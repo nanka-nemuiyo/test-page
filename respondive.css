@@ -1,10 +1,11 @@
 /* タブレット向けレイアウト */
 @media all and (max-width: 1000px) {
-  .top-wrapper {
-    padding: 180px 0 100px 0;
-    background-image: url(simple_top1.png);
-    background-size: cover;
-    color: white;
+  .lesson {
+    width: 50%;
+    margin-bottom: 50px;
+  }
+
+  footer {
     text-align: center;
   }
 
@@ -15,39 +16,13 @@
   .heading h2 {
     font-size: 20px;
   }
-
-  .lesson {
-    width: 50%;
-    margin-bottom: 50px;
-  }
-  footer {
-    text-align: center;
-  }
 }
 
-/* モバイル向けレイアウト */
+/* スマホ向けレイアウト */
 @media all and (max-width: 670px) {
-  .top-wrapper {
-    padding: 180px 0 100px 0;
-    background-image: url(simple_top1.png);
-    background-size: cover;
-    color: white;
-    text-align: left;
+  .lesson {
+    width: 100%;
   }
-
-  .header-right {
-    display: none;
-  }
-
-  /* menu-iconクラスのdisplayをblockに指定してください  */
-  .icon_change{
-    display: block;
-    color: white;
-    float: right;
-    font-size: 20px;
-    padding: 18px 0;
-  }
-
 
   .btn {
     width: 100%;
@@ -57,15 +32,29 @@
     margin-bottom: 10px;
   }
 
+  .top-wrapper {
+    text-align: left;
+  }
+
+  /* header-rightクラスのdisplayをnoneに指定してください */
+  .header-right {
+    display: none;
+  }
+
+  /* menu-iconクラスのdisplayをblockに指定してください  */
+  .icon_change {
+    display: block;
+  }
+
   .top-wrapper h1 {
-    font-size: 24px;
+    font-size: 20px;
   }
 
   .top-wrapper p {
-    font-size: 14px;
+    font-size: 12px;
   }
-
-  .lesson {
-    width: 100%;
+  .top_wrapper_back {
+    padding: 20px;
+    width: 85%;
   }
 }
