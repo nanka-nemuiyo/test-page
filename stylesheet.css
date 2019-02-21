@@ -87,6 +87,10 @@ a {
   padding-right: 5px;
 }
 
+.btn-short-text {
+  padding-left: 8px;
+}
+
 header {
   height: 65px;
   width: 100%;
