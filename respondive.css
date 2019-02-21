@@ -1,0 +1,71 @@
+/* タブレット向けレイアウト */
+@media all and (max-width: 1000px) {
+  .top-wrapper {
+    padding: 180px 0 100px 0;
+    background-image: url(simple_top1.png);
+    background-size: cover;
+    color: white;
+    text-align: center;
+  }
+
+  .top-wrapper h1 {
+    font-size: 32px;
+  }
+
+  .heading h2 {
+    font-size: 20px;
+  }
+
+  .lesson {
+    width: 50%;
+    margin-bottom: 50px;
+  }
+  footer {
+    text-align: center;
+  }
+}
+
+/* モバイル向けレイアウト */
+@media all and (max-width: 670px) {
+  .top-wrapper {
+    padding: 180px 0 100px 0;
+    background-image: url(simple_top1.png);
+    background-size: cover;
+    color: white;
+    text-align: left;
+  }
+
+  .header-right {
+    display: none;
+  }
+
+  /* menu-iconクラスのdisplayをblockに指定してください  */
+  .icon_change{
+    display: block;
+    color: white;
+    float: right;
+    font-size: 20px;
+    padding: 18px 0;
+  }
+
+
+  .btn {
+    width: 100%;
+  }
+
+  .facebook {
+    margin-bottom: 10px;
+  }
+
+  .top-wrapper h1 {
+    font-size: 24px;
+  }
+
+  .top-wrapper p {
+    font-size: 14px;
+  }
+
+  .lesson {
+    width: 100%;
+  }
+}
